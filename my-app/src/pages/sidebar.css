@@ -1,0 +1,229 @@
+#yul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.frame {
+    background-color: #2e2e48;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+    width: 60vw;
+    display: flex;
+}
+
+.frame .group {
+    height: 131px;
+    left: 80px;
+    position: absolute;
+    top: 160px;
+    width: 108px;
+}
+
+.frame .ellipse {
+    height: 65px;
+    left: 19px;
+    position: absolute;
+    top: 0;
+    width: 65px;
+}
+
+.frame .text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18.5px;
+    font-weight: 600;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 79px;
+    width: 74px;
+}
+
+.frame .div {
+    color: #ffffff66;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 11.8px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 113px;
+    width: 104px;
+}
+
+.frame .overlap {
+    height: 246px;
+    left: 0;
+    position: absolute;
+    top: 338px;
+    width: 173px;
+}
+
+.frame .group-2 {
+    height: 246px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 173px;
+}
+
+.frame .group-3 {
+    height: 23px;
+    left: 52px;
+    position: absolute;
+    top: 13px;
+    width: 123px;
+}
+
+.frame .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15.2px;
+    font-weight: 600;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.frame .img {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 20px;
+}
+
+.frame .div-wrapper {
+    height: 23px;
+    left: 91px;
+    position: absolute;
+    top: 83px;
+    width: 62px;
+}
+
+.frame .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15.2px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
+
+.frame .group-4 {
+    height: 23px;
+    left: 52px;
+    position: absolute;
+    top: 153px;
+    width: 119px;
+}
+
+.frame .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15.2px;
+    font-weight: 600;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 78px;
+}
+
+.frame .overlap-group {
+    height: 23px;
+    left: 52px;
+    position: absolute;
+    top: 223px;
+    width: 118px;
+}
+
+.frame .group-5 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 20px;
+}
+
+.frame .group-6 {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 117px;
+}
+
+.frame .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 15.2px;
+    font-weight: 600;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 77px;
+}
+a{
+    cursor: pointer;
+    
+}
+.frame .rectangle {
+    background: linear-gradient(180deg, rgb(126, 115, 255) 0%, rgb(91, 77, 255) 100%);
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+
+.frame .fluent-history {
+    height: 20px;
+    left: 52px;
+    position: absolute;
+    top: 84px;
+    width: 20px;
+}
+
+.frame .rectangle-2 {
+    background-color: #2e2e48;
+    border-radius: 11.79px;
+    box-shadow: 0px 3.37px 31.16px #0000001c;
+    height: 56px;
+    left: 329px;
+    position: absolute;
+    top: 544px;
+    width: 130px;
+}
+
+.frame .text-wrapper-6 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(221, 92, 229) 0%, rgb(84, 54, 218) 98.1%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    height: 48px;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-fill-color: transparent;
+    top: 40px;
+}

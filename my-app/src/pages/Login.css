@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.social-button {
+   
+    align-items: center;
+    
+    border: 1px solid rgb(232, 96, 186);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center; /* Vertically center the button */
+  /* Center within the viewport height */
+  margin-left: 400px;
+  width: 681px;
+  height: 78px;
+  background: transparent;
+  margin-bottom: 30px;
+  }
+  
+  .icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .texts {
+    /* Adjust the font size as needed */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+  }
+
+
+  .div-11 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 37px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      margin-right: 7px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  
+  .div-13 {
+    color: #fff;
+    align-self: stretch;
+    font: 400 16px/135.5% Poppins, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+
+  
+
+  @media (max-width: 991px) {
+    .left , .right  {
+      width: 8%;
+      
+    }}
+
+
+
+    hr{ color: #fff;}
+
+    .email{
+        width: 681px;
+  height: 300px;
+  position: relative;
+  left:400px;
+  top:10px;
+    }
+
+
+    .div9{
+
+        border-radius: 10px;
+        background: linear-gradient(271deg, #0d4fb5 7.92%, #dd5ce5 89.37%);
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        margin: 54px 10px 0 0;
+        padding: 30px 20px;
+        position: relative;
+  
+        width: 676px;
+        left:400px;
+  top:10px;
+      }
+      @media (max-width: 991px) {
+        .div9 {
+          
+          margin-top: 40px;
+          position: relative;
+            left:30px;
+            width: 90%;
+        }
+      } 
+
+      .div-16{
+        margin-bottom: 100px;
+      }
+
+
+      @media (max-width: 991px){
+
+.social-button  {
+    margin-left: 30px;
+    width: 90%;
+}
+
+      }
+
+      .div-3{
+        position: relative;
+        margin-left: 20px;
+      }
+
+      @media (max-width: 991px){
+
+        .email ,.div-3  {
+            position: relative;
+            left:10px;
+            width: 90%;
+        }
+        
+              }
+
+       
+             
+    
+
+
+
+  

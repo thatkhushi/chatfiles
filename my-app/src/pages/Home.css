@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.navbar {
+  background-color: #000000;
+  font-family: Poppins;
+  padding: 15px;
+  position: fixed;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 32px;
+  font-weight: 600;
+ 
+  text-decoration: none;
+  margin-left: 60px;
+
+  background: linear-gradient(to left, rgb(255, 0, 204), rgb(132, 40, 181), rgb(75, 82, 218));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #7143de;
+  
+  border-bottom: 2px solid rgb(73, 12, 142);
+  margin-bottom: 12px;
+}
+.list {
+  padding-top: 45.5px;
+  margin-left: 250px;
+}
+
+.login {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  margin: 10px;
+}
+
+.signup{
+  border: 1px solid  rgb(204, 86, 204);
+  border-radius: 10px;
+}
+
+button {
+  background-color: transparent;
+  margin-left: 10px;
+  
+  padding: 10px;
+  width: 90px;
+  border: 1px ;
+  border-radius: 10px;
+}
+
+button a {
+  color: white;
+  
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+
+
+.title{
+  width: 752px;
+  height: 96px;
+  color:white;
+
+font-family: Poppins;
+font-size: 70px;
+font-style: popins;
+font-weight: 500;
+line-height: normal;
+margin-left: 344px;
+margin-top: 150px;
+
+
+}
+ .para{
+
+  width: 974px;
+  height:108 px;
+  color: #A0A0A0;
+
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 233px;
+
+
+ }
+ 
+
+
+
+ .button-container {
+  position:absolute;
+  top: 530px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 185px;
+  height: 60px;
+ 
+  font-size: 24px;
+  font-family: Poppins;
+}
+
+.button {
+  border: 1px solid rgb(204, 86, 204);
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 205px;
+  height: 60px;
+  
+padding: 12px 24px;
+
+
+
+}
+
+
+button:hover{
+    background:linear-gradient(to right, #DD5CE5, #3c11d7);
+    border-radius: 10px;
+  }
+
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+   
+  }
+
+
+  .gradient-div {
+    width: 364px;
+    height: 192px;
+    background: linear-gradient(to bottom left, rgb(110, 13, 174), rgb(24, 150, 79));
+    position: relative;
+    border-radius: 5px;
+    margin: 0 59px;
+    margin-bottom: 50px;
+  }
+
+  .gradient-div2 {
+    width: 364px;
+    height: 192px;
+    background: linear-gradient(to bottom left, rgb(174, 13, 75), rgb(150, 102, 24));
+    position: relative;
+    border-radius: 5px;
+    margin: 0 59px;
+    margin-bottom: 50px;
+  }
+  
+  
+  .text {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    color: white;
+    left: 24px;
+    
+  }
+
+  .text2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    left: 24px;
+  }
+
+
+ 

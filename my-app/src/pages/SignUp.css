@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.div {
+    background-color: #070917;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  h4{
+    color: #fff;
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 135.5%; /* 48.78px */
+  }
+  .div-2 {
+    align-self: center;
+    display: flex;
+    width: 681px;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 79px 0 80px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      margin: 40px 0;
+    }
+    h4{
+        font-size: 26px;
+    }
+  }
+  .div-3 {
+    align-items: flex-start;
+    align-self: start;
+    display: flex;
+    width: 278px;
+    max-width: 100%;
+    padding-top: 48px;
+    flex-direction: column;
+  }
+  .div-4 {
+    font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: linear-gradient(269deg, #DD5CE5 3.24%, #5436DA 89.9%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      font-size: 40px;
+      text-wrap: initial;
+    }
+  }
+
+  form input{
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dd5ce5;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.11);
+    align-self: stretch;
+    margin-top: 28px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 34px 20px;
+    font: 400 16px/135.5% Poppins, -apple-system, Roboto, Helvetica,sans-serif;
+    width: 98%;
+  }
+ 
+  .div-9 {
+    border-radius: 10px;
+    background: linear-gradient(271deg, #0d4fb5 7.92%, #dd5ce5 89.37%);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 54px 10px 0 0;
+    padding: 30px 20px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-10 {
+    color: #fff;
+    align-self: center;
+    text-wrap: nowrap;
+    font: 600 16px/135.5% Poppins, -apple-system, Roboto, Helvetica,
+      sans-serif;
+      text-decoration: none;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      text-wrap: initial;
+    }
+  }
+  .div-11 {
+    align-self: stretch;
+    display: flex;
+    margin-top: 37px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      margin-right: 7px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .div-12 {
+    background-color: #bfbfbf;
+    align-self: center;
+    width: 292px;
+    height: 1px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-13 {
+    color: #fff;
+    align-self: stretch;
+    font: 400 16px/135.5% Poppins, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-14 {
+    background-color: #bfbfbf;
+    align-self: center;
+    width: 288px;
+    height: 1px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .div-12 , .div-14  {
+      width: 8%;
+      
+    }}
+  .div-15 {
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    margin-top: 39px;
+    width: 183px;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      justify-content: center;
+    }
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+    flex: 1;
+    cursor: pointer;
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    fill: #1877f2;
+    overflow: hidden;
+    flex: 1;
+  }
+  .img-3 {
+    aspect-ratio: 1.02;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    fill: #fff;
+    overflow: hidden;
+    flex: 1;
+  }
+  .div-16 {
+    color:white;
+    align-self: center;
+    margin-top: 53px;
+    text-wrap: nowrap;
+    font: 500 16px/135.5% Poppins, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin-top: 40px;
+      text-wrap: initial;
+    }
+  }
+.form-control{
+
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+  a {
+    color: #084d93;
+    text-decoration: none;
+  }
